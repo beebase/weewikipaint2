@@ -1,0 +1,5 @@
+init:
+- run npm install
+
+build:
+- run gulp default

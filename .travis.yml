@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.10'
+before_script:
+- npm install -g gulp
+script: gulp
+notifications:
+  email:
+    recipients:
+      - maarten@beebase.nl
+    on_success: [always] #[always|never|change] # default: change
+    on_failure: [always] #[always|never|change] # default: always
